@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite 1" verbose="1" >
+
+
+    <test name="JETBLUE" >
+        <parameter name="username"  value="jagla.karol@gmail.com"/>
+        <parameter name="password"  value="Karol2017jb"/>
+        <classes>
+            <class name="BadgesTests"/>
+        </classes>
+    </test>
+
+    <test name="WIKIPEDIA">
+        <parameter name="sUsername" value="kjagla"/>
+        <parameter name="sPassword" value="wiki.098"/>
+        <classes>
+            <class name="WikipediaTests"/>
+        </classes>
+    </test>
+
+    <test name="ToolsQA">
+        <classes>
+            <class name="ToolsQATests"/>
+        </classes>
+    </test>
+
+</suite>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+
+    <test name="tests_NG">
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="functest" />-->
+            <!--</run>-->
+        <!--</groups>-->
+        <parameter name="myName" value="Karol"/>
+        <parameter name="myPass" value="QEW@#@#W22"/>
+        <parameter name="paramX" value="XXXXXXXXXXXXx"></parameter>
+        <parameter name="param1" value="2"></parameter>
+        <parameter name="param2" value="and a string parameter"></parameter>
+
+
+        <classes>
+            <!--<class name="first.testng.TestNGSimpleTest"/>-->
+            <class name="first.testng.TestngAnnotationExecutionProcedure"/>
+            <!--<class name="main.testng.MessageUtil"/>-->
+            <!--<class name="first.testng.IgnoreTest"/>-->
+            <!--<class name="first.testng.ExceptionHandlingTest"/>-->
+           <!--<class name="first.testng.DependencyTest"/>-->
+            <!--<class name="first.testng.ParametrizedSuperSimple"/>-->
+            <class name="first.testng.DataProvider2"/>
+            <!--<class name="first.testng.Parametrized"/>-->
+        </classes>
+
+    </test>
+</suite>
