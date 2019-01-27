@@ -40,9 +40,9 @@ public class BadgesTests {
     public void login1(String username, String password){
         login = new Login(driver);
         Home home = login.loginToHome(username,password);
-//        home.checkSuccessfullLogin();
-//        Logout logout = home.logout();
- //       Assert.assertTrue(logout.we);
+        home.checkSuccessfullLogin();
+        Logout logout = home.logout();
+        Assert.assertTrue(logout.we);
         Assert.assertTrue(true);
 
 
