@@ -12,7 +12,7 @@ public class DriverSetup {
     public static WebDriver wd;
     public   WebDriverStartupInfo startupInfo;
     public DriverSetup() {
-        startupInfo = new WebDriverStartupInfo("firefox");
+        startupInfo = new WebDriverStartupInfo("chrome");
     }
 
 //    public static WebDriver getDriver(WebDriver wd) {
